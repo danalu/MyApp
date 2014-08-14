@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (Hotel)
+@interface UIViewController (Utility)
 
 - (void)showChildController:(UIViewController*)childController
                      inView:(UIView*)view

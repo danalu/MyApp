@@ -10,4 +10,6 @@
 
 @interface GHHomeViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIView *contentView;
+
 @end

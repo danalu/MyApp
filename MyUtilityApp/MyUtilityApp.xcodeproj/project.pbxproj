@@ -19,6 +19,12 @@
 		3735FB56199C96E200AF7806 /* GHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB53199C96E200AF7806 /* GHLeftViewController.m */; };
 		3735FB57199C96E200AF7806 /* GHLeftNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */; };
 		3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */; };
+		3735FB60199CA4BD00AF7806 /* GHCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */; };
+		3735FB62199CB2A700AF7806 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3735FB61199CB2A700AF7806 /* QuartzCore.framework */; };
+		3735FB65199CB61D00AF7806 /* GHLeftChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB64199CB61D00AF7806 /* GHLeftChildViewController.m */; };
+		3735FB68199CB62D00AF7806 /* GHRightChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB67199CB62D00AF7806 /* GHRightChildViewController.m */; };
+		3735FB6B199CB64900AF7806 /* GHTabOneChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB6A199CB64900AF7806 /* GHTabOneChildViewController.m */; };
+		3735FB6E199CB66200AF7806 /* GHTabTwoChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB6D199CB66200AF7806 /* GHTabTwoChildViewController.m */; };
 		37ADD210199B4FE0007DDC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD20F199B4FE0007DDC64 /* Foundation.framework */; };
 		37ADD212199B4FE0007DDC64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD211199B4FE0007DDC64 /* CoreGraphics.framework */; };
 		37ADD214199B4FE0007DDC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD213199B4FE0007DDC64 /* UIKit.framework */; };
@@ -72,6 +78,17 @@
 		3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftNavigationController.m; sourceTree = "<group>"; };
 		3735FB59199C96F400AF7806 /* GHTopParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTopParentViewController.h; sourceTree = "<group>"; };
 		3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTopParentViewController.m; sourceTree = "<group>"; };
+		3735FB5E199CA4BD00AF7806 /* GHCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCustomSegue.h; sourceTree = "<group>"; };
+		3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCustomSegue.m; sourceTree = "<group>"; };
+		3735FB61199CB2A700AF7806 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3735FB63199CB61D00AF7806 /* GHLeftChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLeftChildViewController.h; sourceTree = "<group>"; };
+		3735FB64199CB61D00AF7806 /* GHLeftChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftChildViewController.m; sourceTree = "<group>"; };
+		3735FB66199CB62D00AF7806 /* GHRightChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRightChildViewController.h; sourceTree = "<group>"; };
+		3735FB67199CB62D00AF7806 /* GHRightChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRightChildViewController.m; sourceTree = "<group>"; };
+		3735FB69199CB64900AF7806 /* GHTabOneChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabOneChildViewController.h; sourceTree = "<group>"; };
+		3735FB6A199CB64900AF7806 /* GHTabOneChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabOneChildViewController.m; sourceTree = "<group>"; };
+		3735FB6C199CB66200AF7806 /* GHTabTwoChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabTwoChildViewController.h; sourceTree = "<group>"; };
+		3735FB6D199CB66200AF7806 /* GHTabTwoChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabTwoChildViewController.m; sourceTree = "<group>"; };
 		37ADD20C199B4FE0007DDC64 /* MyUtilityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtilityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37ADD20F199B4FE0007DDC64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37ADD211199B4FE0007DDC64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3735FB62199CB2A700AF7806 /* QuartzCore.framework in Frameworks */,
 				37ADD277199B5819007DDC64 /* libMyUtilityLib.a in Frameworks */,
 				37ADD212199B4FE0007DDC64 /* CoreGraphics.framework in Frameworks */,
 				37ADD214199B4FE0007DDC64 /* UIKit.framework in Frameworks */,
@@ -150,6 +168,10 @@
 				3735FB41199C96BD00AF7806 /* GHTabThreeViewController.m */,
 				3735FB42199C96BD00AF7806 /* GHTabFourViewController.h */,
 				3735FB43199C96BD00AF7806 /* GHTabFourViewController.m */,
+				3735FB69199CB64900AF7806 /* GHTabOneChildViewController.h */,
+				3735FB6A199CB64900AF7806 /* GHTabOneChildViewController.m */,
+				3735FB6C199CB66200AF7806 /* GHTabTwoChildViewController.h */,
+				3735FB6D199CB66200AF7806 /* GHTabTwoChildViewController.m */,
 			);
 			name = HomeViewController;
 			sourceTree = "<group>";
@@ -161,6 +183,8 @@
 				3735FB4C199C96D300AF7806 /* GHRightViewController.m */,
 				3735FB4D199C96D300AF7806 /* GHRightNavigationController.h */,
 				3735FB4E199C96D300AF7806 /* GHRightNavigationController.m */,
+				3735FB66199CB62D00AF7806 /* GHRightChildViewController.h */,
+				3735FB67199CB62D00AF7806 /* GHRightChildViewController.m */,
 			);
 			name = RightViewController;
 			sourceTree = "<group>";
@@ -172,6 +196,8 @@
 				3735FB53199C96E200AF7806 /* GHLeftViewController.m */,
 				3735FB54199C96E200AF7806 /* GHLeftNavigationController.h */,
 				3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */,
+				3735FB63199CB61D00AF7806 /* GHLeftChildViewController.h */,
+				3735FB64199CB61D00AF7806 /* GHLeftChildViewController.m */,
 			);
 			name = LeftViewController;
 			sourceTree = "<group>";
@@ -183,6 +209,15 @@
 				3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */,
 			);
 			name = TopContainerParent;
+			sourceTree = "<group>";
+		};
+		3735FB5D199CA48400AF7806 /* CustomPerform */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB5E199CA4BD00AF7806 /* GHCustomSegue.h */,
+				3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */,
+			);
+			name = CustomPerform;
 			sourceTree = "<group>";
 		};
 		37ADD203199B4FE0007DDC64 = {
@@ -208,6 +243,7 @@
 		37ADD20E199B4FE0007DDC64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3735FB61199CB2A700AF7806 /* QuartzCore.framework */,
 				37ADD276199B5819007DDC64 /* libMyUtilityLib.a */,
 				37ADD20F199B4FE0007DDC64 /* Foundation.framework */,
 				37ADD211199B4FE0007DDC64 /* CoreGraphics.framework */,
@@ -221,6 +257,7 @@
 		37ADD215199B4FE0007DDC64 /* MyUtilityApp */ = {
 			isa = PBXGroup;
 			children = (
+				3735FB5D199CA48400AF7806 /* CustomPerform */,
 				3735FB58199C96E600AF7806 /* TopContainerParent */,
 				3735FB51199C96D600AF7806 /* LeftViewController */,
 				3735FB4A199C96C000AF7806 /* RightViewController */,
@@ -398,11 +435,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				37ADD21C199B4FE0007DDC64 /* main.m in Sources */,
+				3735FB6B199CB64900AF7806 /* GHTabOneChildViewController.m in Sources */,
 				3735FB57199C96E200AF7806 /* GHLeftNavigationController.m in Sources */,
 				3735FB48199C96BD00AF7806 /* GHTabThreeViewController.m in Sources */,
+				3735FB65199CB61D00AF7806 /* GHLeftChildViewController.m in Sources */,
 				3735FB46199C96BD00AF7806 /* GHTabOneViewController.m in Sources */,
+				3735FB68199CB62D00AF7806 /* GHRightChildViewController.m in Sources */,
 				3735FB47199C96BD00AF7806 /* GHTabTwoViewController.m in Sources */,
 				3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */,
+				3735FB6E199CB66200AF7806 /* GHTabTwoChildViewController.m in Sources */,
+				3735FB60199CA4BD00AF7806 /* GHCustomSegue.m in Sources */,
 				3735FB44199C96BD00AF7806 /* GHHomeNavigationController.m in Sources */,
 				3735FB50199C96D300AF7806 /* GHRightNavigationController.m in Sources */,
 				3735FB45199C96BD00AF7806 /* GHHomeViewController.m in Sources */,
@@ -544,6 +586,7 @@
 					"/Users/dana/iOS/MyApp/MyUtilityLib/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -562,6 +605,7 @@
 					"/Users/dana/iOS/MyApp/MyUtilityLib/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

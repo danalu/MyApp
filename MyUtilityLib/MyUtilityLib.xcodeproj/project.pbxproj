@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1448372AD9B441ACB63E5254 /* libPods-MyUtilityLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2FA0DF8F05416D9A4AE169 /* libPods-MyUtilityLib.a */; };
+		3735FB5C199C9A2900AF7806 /* UIViewController+Utility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37ADD2B4199B5CF0007DDC64 /* UIViewController+Utility.h */; };
 		37ADD251199B50BD007DDC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD250199B50BD007DDC64 /* Foundation.framework */; };
 		37ADD256199B50BD007DDC64 /* MyUtilityLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37ADD255199B50BD007DDC64 /* MyUtilityLib.h */; };
 		37ADD258199B50BD007DDC64 /* MyUtilityLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD257199B50BD007DDC64 /* MyUtilityLib.m */; };
@@ -41,7 +42,7 @@
 		37ADD2C4199B5CF0007DDC64 /* UISegmentedControl+Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2AF199B5CF0007DDC64 /* UISegmentedControl+Hotel.m */; };
 		37ADD2C5199B5CF0007DDC64 /* UITableView+Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2B1199B5CF0007DDC64 /* UITableView+Hotel.m */; };
 		37ADD2C6199B5CF0007DDC64 /* UIView+Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2B3199B5CF0007DDC64 /* UIView+Hotel.m */; };
-		37ADD2C7199B5CF0007DDC64 /* UIViewController+Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2B5199B5CF0007DDC64 /* UIViewController+Hotel.m */; };
+		37ADD2C7199B5CF0007DDC64 /* UIViewController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2B5199B5CF0007DDC64 /* UIViewController+Utility.m */; };
 		37ADD2CB199B5DC9007DDC64 /* HSBusyIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2CA199B5DC9007DDC64 /* HSBusyIndicatorView.m */; };
 		37ADD2CF199B5DDF007DDC64 /* HSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2CE199B5DDF007DDC64 /* HSUtility.m */; };
 		37ADD2D2199B5E49007DDC64 /* HSFadingGradientArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD2D1199B5E49007DDC64 /* HSFadingGradientArcLayer.m */; };
@@ -68,9 +69,10 @@
 		37ADD24B199B50BD007DDC64 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = include;
 			dstSubfolderSpec = 16;
 			files = (
+				3735FB5C199C9A2900AF7806 /* UIViewController+Utility.h in CopyFiles */,
 				37ADD256199B50BD007DDC64 /* MyUtilityLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +142,8 @@
 		37ADD2B1199B5CF0007DDC64 /* UITableView+Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Hotel.m"; sourceTree = "<group>"; };
 		37ADD2B2199B5CF0007DDC64 /* UIView+Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hotel.h"; sourceTree = "<group>"; };
 		37ADD2B3199B5CF0007DDC64 /* UIView+Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hotel.m"; sourceTree = "<group>"; };
-		37ADD2B4199B5CF0007DDC64 /* UIViewController+Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Hotel.h"; sourceTree = "<group>"; };
-		37ADD2B5199B5CF0007DDC64 /* UIViewController+Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Hotel.m"; sourceTree = "<group>"; };
+		37ADD2B4199B5CF0007DDC64 /* UIViewController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utility.h"; sourceTree = "<group>"; };
+		37ADD2B5199B5CF0007DDC64 /* UIViewController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utility.m"; sourceTree = "<group>"; };
 		37ADD2C9199B5DC9007DDC64 /* HSBusyIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBusyIndicatorView.h; sourceTree = "<group>"; };
 		37ADD2CA199B5DC9007DDC64 /* HSBusyIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBusyIndicatorView.m; sourceTree = "<group>"; };
 		37ADD2CD199B5DDF007DDC64 /* HSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSUtility.h; sourceTree = "<group>"; };
@@ -330,8 +332,8 @@
 				37ADD2B1199B5CF0007DDC64 /* UITableView+Hotel.m */,
 				37ADD2B2199B5CF0007DDC64 /* UIView+Hotel.h */,
 				37ADD2B3199B5CF0007DDC64 /* UIView+Hotel.m */,
-				37ADD2B4199B5CF0007DDC64 /* UIViewController+Hotel.h */,
-				37ADD2B5199B5CF0007DDC64 /* UIViewController+Hotel.m */,
+				37ADD2B4199B5CF0007DDC64 /* UIViewController+Utility.h */,
+				37ADD2B5199B5CF0007DDC64 /* UIViewController+Utility.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -552,7 +554,7 @@
 				37ADD2BE199B5CF0007DDC64 /* UIButton+Hotel.m in Sources */,
 				37ADD290199B5867007DDC64 /* HSMobileService+Utility.m in Sources */,
 				37ADD2B8199B5CF0007DDC64 /* NSArray+HSCheckedExtraction.m in Sources */,
-				37ADD2C7199B5CF0007DDC64 /* UIViewController+Hotel.m in Sources */,
+				37ADD2C7199B5CF0007DDC64 /* UIViewController+Utility.m in Sources */,
 				37ADD2BA199B5CF0007DDC64 /* NSDictionary+HSCheckedExtraction.m in Sources */,
 				37ADD2BD199B5CF0007DDC64 /* NSDate+Hotel.m in Sources */,
 			);

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 . All rights reserved.
 //
 
-#import "UIViewController+Hotel.h"
+#import "UIViewController+Utility.h"
 
-@implementation UIViewController (Hotel)
+@implementation UIViewController (Utility)
 
 - (void)showChildController:(UIViewController*)childController
                      inView:(UIView*)hostView
@@ -40,7 +40,10 @@
     else
     {
         [UIView animateWithDuration:0.2 animations:^{
-            finalStateBlock();
+            if(finalStateBlock)
+            {
+                finalStateBlock();
+            }
         } completion:^(BOOL finished) {
             [childController didMoveToParentViewController:self];
             UIAccessibilityPostNotification(UIAccessibilityScreenChangedNotification, nil);
