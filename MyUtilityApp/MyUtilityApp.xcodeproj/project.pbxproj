@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3735FB36199C969D00AF7806 /* GHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB35199C969D00AF7806 /* GHTabBarController.m */; };
+		3735FB44199C96BD00AF7806 /* GHHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB39199C96BD00AF7806 /* GHHomeNavigationController.m */; };
+		3735FB45199C96BD00AF7806 /* GHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB3B199C96BD00AF7806 /* GHHomeViewController.m */; };
+		3735FB46199C96BD00AF7806 /* GHTabOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB3D199C96BD00AF7806 /* GHTabOneViewController.m */; };
+		3735FB47199C96BD00AF7806 /* GHTabTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB3F199C96BD00AF7806 /* GHTabTwoViewController.m */; };
+		3735FB48199C96BD00AF7806 /* GHTabThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB41199C96BD00AF7806 /* GHTabThreeViewController.m */; };
+		3735FB49199C96BD00AF7806 /* GHTabFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB43199C96BD00AF7806 /* GHTabFourViewController.m */; };
+		3735FB4F199C96D300AF7806 /* GHRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB4C199C96D300AF7806 /* GHRightViewController.m */; };
+		3735FB50199C96D300AF7806 /* GHRightNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB4E199C96D300AF7806 /* GHRightNavigationController.m */; };
+		3735FB56199C96E200AF7806 /* GHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB53199C96E200AF7806 /* GHLeftViewController.m */; };
+		3735FB57199C96E200AF7806 /* GHLeftNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */; };
+		3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */; };
 		37ADD210199B4FE0007DDC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD20F199B4FE0007DDC64 /* Foundation.framework */; };
 		37ADD212199B4FE0007DDC64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD211199B4FE0007DDC64 /* CoreGraphics.framework */; };
 		37ADD214199B4FE0007DDC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD213199B4FE0007DDC64 /* UIKit.framework */; };
@@ -14,7 +26,6 @@
 		37ADD21C199B4FE0007DDC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD21B199B4FE0007DDC64 /* main.m */; };
 		37ADD220199B4FE0007DDC64 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD21F199B4FE0007DDC64 /* ADAppDelegate.m */; };
 		37ADD223199B4FE0007DDC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37ADD221199B4FE0007DDC64 /* Main.storyboard */; };
-		37ADD226199B4FE0007DDC64 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ADD225199B4FE0007DDC64 /* ADViewController.m */; };
 		37ADD228199B4FE0007DDC64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ADD227199B4FE0007DDC64 /* Images.xcassets */; };
 		37ADD22F199B4FE0007DDC64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD22E199B4FE0007DDC64 /* XCTest.framework */; };
 		37ADD230199B4FE0007DDC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ADD20F199B4FE0007DDC64 /* Foundation.framework */; };
@@ -36,6 +47,31 @@
 
 /* Begin PBXFileReference section */
 		2EB19D2084084B91904A35BD /* libPods-MyUtilityApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyUtilityApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3735FB32199C968400AF7806 /* StoryboardIDConsant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardIDConsant.h; sourceTree = "<group>"; };
+		3735FB34199C969D00AF7806 /* GHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabBarController.h; sourceTree = "<group>"; };
+		3735FB35199C969D00AF7806 /* GHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabBarController.m; sourceTree = "<group>"; };
+		3735FB38199C96BD00AF7806 /* GHHomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHomeNavigationController.h; sourceTree = "<group>"; };
+		3735FB39199C96BD00AF7806 /* GHHomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHomeNavigationController.m; sourceTree = "<group>"; };
+		3735FB3A199C96BD00AF7806 /* GHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHomeViewController.h; sourceTree = "<group>"; };
+		3735FB3B199C96BD00AF7806 /* GHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHomeViewController.m; sourceTree = "<group>"; };
+		3735FB3C199C96BD00AF7806 /* GHTabOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabOneViewController.h; sourceTree = "<group>"; };
+		3735FB3D199C96BD00AF7806 /* GHTabOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabOneViewController.m; sourceTree = "<group>"; };
+		3735FB3E199C96BD00AF7806 /* GHTabTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabTwoViewController.h; sourceTree = "<group>"; };
+		3735FB3F199C96BD00AF7806 /* GHTabTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabTwoViewController.m; sourceTree = "<group>"; };
+		3735FB40199C96BD00AF7806 /* GHTabThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabThreeViewController.h; sourceTree = "<group>"; };
+		3735FB41199C96BD00AF7806 /* GHTabThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabThreeViewController.m; sourceTree = "<group>"; };
+		3735FB42199C96BD00AF7806 /* GHTabFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTabFourViewController.h; sourceTree = "<group>"; };
+		3735FB43199C96BD00AF7806 /* GHTabFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTabFourViewController.m; sourceTree = "<group>"; };
+		3735FB4B199C96D300AF7806 /* GHRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRightViewController.h; sourceTree = "<group>"; };
+		3735FB4C199C96D300AF7806 /* GHRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRightViewController.m; sourceTree = "<group>"; };
+		3735FB4D199C96D300AF7806 /* GHRightNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHRightNavigationController.h; sourceTree = "<group>"; };
+		3735FB4E199C96D300AF7806 /* GHRightNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHRightNavigationController.m; sourceTree = "<group>"; };
+		3735FB52199C96E200AF7806 /* GHLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLeftViewController.h; sourceTree = "<group>"; };
+		3735FB53199C96E200AF7806 /* GHLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftViewController.m; sourceTree = "<group>"; };
+		3735FB54199C96E200AF7806 /* GHLeftNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLeftNavigationController.h; sourceTree = "<group>"; };
+		3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftNavigationController.m; sourceTree = "<group>"; };
+		3735FB59199C96F400AF7806 /* GHTopParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTopParentViewController.h; sourceTree = "<group>"; };
+		3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTopParentViewController.m; sourceTree = "<group>"; };
 		37ADD20C199B4FE0007DDC64 /* MyUtilityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUtilityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37ADD20F199B4FE0007DDC64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37ADD211199B4FE0007DDC64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +83,6 @@
 		37ADD21E199B4FE0007DDC64 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
 		37ADD21F199B4FE0007DDC64 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
 		37ADD222199B4FE0007DDC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37ADD224199B4FE0007DDC64 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
-		37ADD225199B4FE0007DDC64 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		37ADD227199B4FE0007DDC64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37ADD22D199B4FE0007DDC64 /* MyUtilityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUtilityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37ADD22E199B4FE0007DDC64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -84,6 +118,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3735FB31199C967500AF7806 /* StoryboardIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB32199C968400AF7806 /* StoryboardIDConsant.h */,
+			);
+			name = StoryboardIdentity;
+			sourceTree = "<group>";
+		};
+		3735FB33199C968E00AF7806 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB34199C969D00AF7806 /* GHTabBarController.h */,
+				3735FB35199C969D00AF7806 /* GHTabBarController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		3735FB37199C96A600AF7806 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB38199C96BD00AF7806 /* GHHomeNavigationController.h */,
+				3735FB39199C96BD00AF7806 /* GHHomeNavigationController.m */,
+				3735FB3A199C96BD00AF7806 /* GHHomeViewController.h */,
+				3735FB3B199C96BD00AF7806 /* GHHomeViewController.m */,
+				3735FB3C199C96BD00AF7806 /* GHTabOneViewController.h */,
+				3735FB3D199C96BD00AF7806 /* GHTabOneViewController.m */,
+				3735FB3E199C96BD00AF7806 /* GHTabTwoViewController.h */,
+				3735FB3F199C96BD00AF7806 /* GHTabTwoViewController.m */,
+				3735FB40199C96BD00AF7806 /* GHTabThreeViewController.h */,
+				3735FB41199C96BD00AF7806 /* GHTabThreeViewController.m */,
+				3735FB42199C96BD00AF7806 /* GHTabFourViewController.h */,
+				3735FB43199C96BD00AF7806 /* GHTabFourViewController.m */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		3735FB4A199C96C000AF7806 /* RightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB4B199C96D300AF7806 /* GHRightViewController.h */,
+				3735FB4C199C96D300AF7806 /* GHRightViewController.m */,
+				3735FB4D199C96D300AF7806 /* GHRightNavigationController.h */,
+				3735FB4E199C96D300AF7806 /* GHRightNavigationController.m */,
+			);
+			name = RightViewController;
+			sourceTree = "<group>";
+		};
+		3735FB51199C96D600AF7806 /* LeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB52199C96E200AF7806 /* GHLeftViewController.h */,
+				3735FB53199C96E200AF7806 /* GHLeftViewController.m */,
+				3735FB54199C96E200AF7806 /* GHLeftNavigationController.h */,
+				3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */,
+			);
+			name = LeftViewController;
+			sourceTree = "<group>";
+		};
+		3735FB58199C96E600AF7806 /* TopContainerParent */ = {
+			isa = PBXGroup;
+			children = (
+				3735FB59199C96F400AF7806 /* GHTopParentViewController.h */,
+				3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */,
+			);
+			name = TopContainerParent;
+			sourceTree = "<group>";
+		};
 		37ADD203199B4FE0007DDC64 = {
 			isa = PBXGroup;
 			children = (
@@ -120,11 +221,15 @@
 		37ADD215199B4FE0007DDC64 /* MyUtilityApp */ = {
 			isa = PBXGroup;
 			children = (
+				3735FB58199C96E600AF7806 /* TopContainerParent */,
+				3735FB51199C96D600AF7806 /* LeftViewController */,
+				3735FB4A199C96C000AF7806 /* RightViewController */,
+				3735FB37199C96A600AF7806 /* HomeViewController */,
+				3735FB33199C968E00AF7806 /* TabBarController */,
+				3735FB31199C967500AF7806 /* StoryboardIdentity */,
 				37ADD21E199B4FE0007DDC64 /* ADAppDelegate.h */,
 				37ADD21F199B4FE0007DDC64 /* ADAppDelegate.m */,
 				37ADD221199B4FE0007DDC64 /* Main.storyboard */,
-				37ADD224199B4FE0007DDC64 /* ADViewController.h */,
-				37ADD225199B4FE0007DDC64 /* ADViewController.m */,
 				37ADD227199B4FE0007DDC64 /* Images.xcassets */,
 				37ADD216199B4FE0007DDC64 /* Supporting Files */,
 			);
@@ -293,8 +398,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				37ADD21C199B4FE0007DDC64 /* main.m in Sources */,
-				37ADD226199B4FE0007DDC64 /* ADViewController.m in Sources */,
+				3735FB57199C96E200AF7806 /* GHLeftNavigationController.m in Sources */,
+				3735FB48199C96BD00AF7806 /* GHTabThreeViewController.m in Sources */,
+				3735FB46199C96BD00AF7806 /* GHTabOneViewController.m in Sources */,
+				3735FB47199C96BD00AF7806 /* GHTabTwoViewController.m in Sources */,
+				3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */,
+				3735FB44199C96BD00AF7806 /* GHHomeNavigationController.m in Sources */,
+				3735FB50199C96D300AF7806 /* GHRightNavigationController.m in Sources */,
+				3735FB45199C96BD00AF7806 /* GHHomeViewController.m in Sources */,
+				3735FB4F199C96D300AF7806 /* GHRightViewController.m in Sources */,
+				3735FB56199C96E200AF7806 /* GHLeftViewController.m in Sources */,
+				3735FB36199C969D00AF7806 /* GHTabBarController.m in Sources */,
 				37ADD220199B4FE0007DDC64 /* ADAppDelegate.m in Sources */,
+				3735FB49199C96BD00AF7806 /* GHTabFourViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ADViewController : UIViewController
+@interface GHTopParentViewController : UIViewController
 
 @end

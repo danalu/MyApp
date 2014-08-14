@@ -6,13 +6,13 @@
 //
 //
 
-#import "ADViewController.h"
+#import "GHTopParentViewController.h"
 
-@interface ADViewController ()
+@interface GHTopParentViewController ()
 
 @end
 
-@implementation ADViewController
+@implementation GHTopParentViewController
 
 - (void)viewDidLoad
 {
