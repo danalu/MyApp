@@ -156,44 +156,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYc-19-Mxe">
+                            <button opaque="NO" tag="101010" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYc-19-Mxe">
                                 <rect key="frame" x="0.0" y="0.0" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="one">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UD4-70-sio" kind="custom" customClass="GHCustomSegue" id="BRU-UJ-OGh"/>
+                                    <action selector="tabBarButtonClicked:" destination="Guz-ao-BKc" eventType="touchUpInside" id="ep2-ls-cCg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebs-Qt-Yrc">
+                            <button opaque="NO" tag="101011" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebs-Qt-Yrc">
                                 <rect key="frame" x="79" y="5" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="two">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4fv-HS-N58" kind="custom" customClass="GHCustomSegue" id="dJc-M0-pr7"/>
+                                    <action selector="tabBarButtonClicked:" destination="Guz-ao-BKc" eventType="touchUpInside" id="3rj-yJ-j52"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yds-5M-9Sk">
+                            <button opaque="NO" tag="101012" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yds-5M-9Sk">
                                 <rect key="frame" x="170" y="10" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="three">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Nqs-pR-I93" kind="custom" customClass="GHCustomSegue" id="e6i-K5-bVn"/>
+                                    <action selector="tabBarButtonClicked:" destination="Guz-ao-BKc" eventType="touchUpInside" id="cXW-ef-xfe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE1-0v-hon">
+                            <button opaque="NO" tag="101013" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZE1-0v-hon">
                                 <rect key="frame" x="259" y="5" width="61" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="four">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1xc-nX-ahE" kind="custom" customClass="GHCustomSegue" id="VI1-Oo-2u8"/>
+                                    <action selector="tabBarButtonClicked:" destination="Guz-ao-BKc" eventType="touchUpInside" id="xKE-sa-hYP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -220,6 +220,12 @@
                             <constraint firstItem="Yds-5M-9Sk" firstAttribute="top" secondItem="XJi-2k-9JS" secondAttribute="bottom" id="xFR-6H-8Yj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tabButtonFour" destination="ZE1-0v-hon" id="zHO-2j-WYV"/>
+                        <outlet property="tabButtonOne" destination="gYc-19-Mxe" id="yE9-vg-UzM"/>
+                        <outlet property="tabButtonThree" destination="Yds-5M-9Sk" id="FH9-KQ-b7f"/>
+                        <outlet property="tabButtonTwo" destination="Ebs-Qt-Yrc" id="GcC-FI-dqk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="So4-Xu-mib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -275,7 +281,7 @@
                                     <constraint firstAttribute="height" constant="49" id="1xe-d2-zBa"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="Guz-ao-BKc" kind="embed" id="lkd-vM-Ray"/>
+                                    <segue destination="Guz-ao-BKc" kind="embed" identifier="TabBarID" id="lkd-vM-Ray"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -309,7 +315,7 @@
                         <viewControllerLayoutGuide type="bottom" id="OuV-ea-os1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="A0C-jX-yXZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yH-oo-mUo">
@@ -480,7 +486,7 @@
                         <viewControllerLayoutGuide type="bottom" id="drh-2m-a0N"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Vie-ai-Lag">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wZ-Zj-nVz">
@@ -533,7 +539,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="BRU-UJ-OGh"/>
-    </inferredMetricsTieBreakers>
 </document>

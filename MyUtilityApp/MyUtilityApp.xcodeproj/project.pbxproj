@@ -19,7 +19,6 @@
 		3735FB56199C96E200AF7806 /* GHLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB53199C96E200AF7806 /* GHLeftViewController.m */; };
 		3735FB57199C96E200AF7806 /* GHLeftNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */; };
 		3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */; };
-		3735FB60199CA4BD00AF7806 /* GHCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */; };
 		3735FB62199CB2A700AF7806 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3735FB61199CB2A700AF7806 /* QuartzCore.framework */; };
 		3735FB65199CB61D00AF7806 /* GHLeftChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB64199CB61D00AF7806 /* GHLeftChildViewController.m */; };
 		3735FB68199CB62D00AF7806 /* GHRightChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3735FB67199CB62D00AF7806 /* GHRightChildViewController.m */; };
@@ -78,8 +77,6 @@
 		3735FB55199C96E200AF7806 /* GHLeftNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftNavigationController.m; sourceTree = "<group>"; };
 		3735FB59199C96F400AF7806 /* GHTopParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTopParentViewController.h; sourceTree = "<group>"; };
 		3735FB5A199C96F400AF7806 /* GHTopParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTopParentViewController.m; sourceTree = "<group>"; };
-		3735FB5E199CA4BD00AF7806 /* GHCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCustomSegue.h; sourceTree = "<group>"; };
-		3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCustomSegue.m; sourceTree = "<group>"; };
 		3735FB61199CB2A700AF7806 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3735FB63199CB61D00AF7806 /* GHLeftChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLeftChildViewController.h; sourceTree = "<group>"; };
 		3735FB64199CB61D00AF7806 /* GHLeftChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLeftChildViewController.m; sourceTree = "<group>"; };
@@ -211,15 +208,6 @@
 			name = TopContainerParent;
 			sourceTree = "<group>";
 		};
-		3735FB5D199CA48400AF7806 /* CustomPerform */ = {
-			isa = PBXGroup;
-			children = (
-				3735FB5E199CA4BD00AF7806 /* GHCustomSegue.h */,
-				3735FB5F199CA4BD00AF7806 /* GHCustomSegue.m */,
-			);
-			name = CustomPerform;
-			sourceTree = "<group>";
-		};
 		37ADD203199B4FE0007DDC64 = {
 			isa = PBXGroup;
 			children = (
@@ -257,7 +245,6 @@
 		37ADD215199B4FE0007DDC64 /* MyUtilityApp */ = {
 			isa = PBXGroup;
 			children = (
-				3735FB5D199CA48400AF7806 /* CustomPerform */,
 				3735FB58199C96E600AF7806 /* TopContainerParent */,
 				3735FB51199C96D600AF7806 /* LeftViewController */,
 				3735FB4A199C96C000AF7806 /* RightViewController */,
@@ -444,7 +431,6 @@
 				3735FB47199C96BD00AF7806 /* GHTabTwoViewController.m in Sources */,
 				3735FB5B199C96F400AF7806 /* GHTopParentViewController.m in Sources */,
 				3735FB6E199CB66200AF7806 /* GHTabTwoChildViewController.m in Sources */,
-				3735FB60199CA4BD00AF7806 /* GHCustomSegue.m in Sources */,
 				3735FB44199C96BD00AF7806 /* GHHomeNavigationController.m in Sources */,
 				3735FB50199C96D300AF7806 /* GHRightNavigationController.m in Sources */,
 				3735FB45199C96BD00AF7806 /* GHHomeViewController.m in Sources */,
